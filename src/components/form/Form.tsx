@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { todosActions, TodoType } from '../../modules/todos';
-import { useAppDispatch, useAppSelector } from '../../store';
+import { todosActions, TodoType } from '../../redux/modules/todos';
+import { useAppDispatch, useAppSelector } from '../../redux/store';
 
 type FormProps = {};
 

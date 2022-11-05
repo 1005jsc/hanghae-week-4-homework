@@ -1,8 +1,8 @@
 import React, { ReactNode, useEffect } from 'react';
 import Todo from '../todo/Todo';
 import styled from 'styled-components';
-import { useAppDispatch, useAppSelector } from '../../store';
-import { todosActions } from '../../modules/todos';
+import { useAppDispatch, useAppSelector } from '../../redux/store';
+import { todosActions } from '../../redux/modules/todos';
 
 type ListProps = {};
 

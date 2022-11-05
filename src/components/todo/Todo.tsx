@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { TodoType } from '../../modules/todos';
+import { TodoType } from '../../redux/modules/todos';
 import { useLocation, useSearchParams, useNavigate } from 'react-router-dom';
 
 type TodoProps = {
